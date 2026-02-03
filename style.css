@@ -1,8 +1,8 @@
 body {
   margin: 0;
   background: #05010d;
-  color: #e8e8ff;
-  font-family: Arial, sans-serif;
+  color: #eaeaff;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .navbar {
@@ -13,22 +13,49 @@ body {
   align-items: center;
 }
 
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .navbar a {
   color: #b89cff;
   margin-left: 15px;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .hero {
+  height: 70vh;
   text-align: center;
-  padding: 100px 20px;
-  background: radial-gradient(circle, #1b0b3d, #05010d);
+  padding-top: 120px;
+  background: radial-gradient(circle, #1a0b3d, #05010d);
 }
 
-.section {
-  padding: 40px 20px;
-  text-align: center;
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #0e062a;
+  padding: 25px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .footer {
