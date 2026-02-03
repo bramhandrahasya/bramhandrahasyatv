@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: #05010d;
+  color: #e8e8ff;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #0b0220;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #b89cff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: radial-gradient(circle, #1b0b3d, #05010d);
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer {
+  background: #0b0220;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
